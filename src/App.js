@@ -10,6 +10,9 @@ const App = () => {
     <div>
       <div className='max-w-screen-md mx-auto'>
         <Navbar />
+          <div>
+            <img className='max-w-48 max-h-48 mx-auto ' src="https://api.lorem.space/image/face?hash=92048" alt="" />
+          </div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/works' element={<Works />} />
