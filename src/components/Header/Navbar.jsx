@@ -8,6 +8,11 @@ const Navbar = ({ dark, setDark }) => {
                 <div className="navbar-start">
                     <Link to='/' className="btn btn-ghost normal-case text-xl text-accent">Md Muzahid</Link>
                 </div>
+                <label for="my-drawer-2" class="btn btn-square btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clipRule="evenodd" />
+                    </svg>
+                </label>
                 <div className="navbar hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         <li>
@@ -27,7 +32,7 @@ const Navbar = ({ dark, setDark }) => {
                             </Link>
                         </li>
                         <li>
-                            <a href="https://github.com/MdMuzahid07?tab=repositories"  target="__blank" className="text-accent">
+                            <a href="https://github.com/MdMuzahid07?tab=repositories" target="__blank" className="text-accent">
                                 <svg className='bg-neutral rounded-full' width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <g>
                                         <path fill="none" d="M0 0h24v24H0z" />
