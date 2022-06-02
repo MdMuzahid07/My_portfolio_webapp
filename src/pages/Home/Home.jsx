@@ -66,7 +66,6 @@ const Home = () => {
             </div>
 
 
-
             <div className='my-7'>
                 <h2 className='text-xl font-bold my-2 text-accent'>On the web__</h2>
 
@@ -101,5 +100,8 @@ const Home = () => {
         </div>
     );
 };
-
 export default Home;
+
+
+
+
