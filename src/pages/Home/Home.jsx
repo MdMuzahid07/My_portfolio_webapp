@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -27,7 +28,7 @@ const Home = () => {
                 </p>
             </div>
 
-            <button className='btn btn-outline mt-7 text-accent'>My Portfolio</button>
+            <Link to='/works' className='btn btn-outline mt-7 text-accent'>My Portfolio</Link>
 
 
 
@@ -95,7 +96,7 @@ const Home = () => {
                     <a href="https://twitter.com/MdMuzah67864493" target="__blank" className='text-accent ml-7 font-bold'>Instagram</a>
                 </div>
                 <p>Here will be see 2 letest posts from posts page</p>
-                <button className='btn btn-outline mt-7 text-accent'>Letest posts</button>
+                <Link to='/posts' className='btn btn-outline mt-7 text-accent'>Letest posts</Link>
             </div>
         </div>
     );
